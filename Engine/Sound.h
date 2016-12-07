@@ -25,6 +25,10 @@
 #include <mutex>
 #include <condition_variable>
 #include <thread>
+// do you see this? this is what fucking retardation looks like
+// why the fuck would you remove the ability to target win7, the
+// fucking dominant platform. seriously M$ suck on my dong. I'm
+// not bitter.
 #include "ChiliException.h"
 #include <wrl\client.h>
 
