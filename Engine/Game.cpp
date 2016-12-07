@@ -20,8 +20,6 @@
  ******************************************************************************************/
 #include "MainWindow.h"
 #include "Game.h"
-#include "SpriteCodex.h"
-#include <random>
 
 Game::Game( MainWindow& wnd )
 	:
@@ -43,13 +41,5 @@ void Game::UpdateModel()
 }
 
 void Game::ComposeFrame()
-{	
-	constexpr int nDickButts = 30;
-	std::mt19937 rng( 69 );
-	std::uniform_int_distribution<int> xDist( 0,Graphics::ScreenWidth - SpriteCodex::widthDickButt - 1 );
-	std::uniform_int_distribution<int> yDist( 0,Graphics::ScreenHeight - SpriteCodex::heightDickButt - 1 );
-	for( int i = 0; i < nDickButts; i++ )
-	{
-		SpriteCodex::DrawDickButt( xDist( rng ),yDist( rng ),gfx );
-	}
+{
 }
