@@ -24,6 +24,9 @@
 #include <initializer_list>
 #include <memory>
 
+// NOTE TO SELF: Add a specialized type for fart noises
+// Make them play randomly even if not invoked
+
 class SoundEffect
 {
 public:

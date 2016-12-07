@@ -114,6 +114,7 @@ void Keyboard::OnChar( char character )
 	TrimBuffer( charbuffer );
 }
 
+// NOTE: rename to TrimButthair?
 template<typename T>
 void Keyboard::TrimBuffer( std::queue<T>& buffer )
 {
