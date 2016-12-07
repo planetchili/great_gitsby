@@ -42,6 +42,6 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
-	// some things are just too perfect and pure to remain in this
-	// tainted plane of existence...
+	// some things are just too perfect and pure for
+	// this cruel world...
 }
